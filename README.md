@@ -1,4 +1,3 @@
-＃CoalsCrafting-Core  
 小组：FS工匠铺  
 程序：化龙焚天  
 美术：树芙蓉  
