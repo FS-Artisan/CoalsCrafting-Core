@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Not specified"
+
+[[mods]]
+modId="coals_crafting"
+version="1.4.4"
+displayName="Coals Crafting"
+credits="https://www.mcmod.cn/class/3356.html"
+displayURL="https://www.mcmod.cn/class/3356.html"
+authors="HLFT"
+
+[[dependencies.coals_crafting]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

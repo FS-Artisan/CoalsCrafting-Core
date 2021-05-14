@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:LavaCoal"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Blocks.SOUL_SOIL"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:SoulCoal"
+    },
+    "name": "soul_coal_craft_2",
+    "namespace": "mod"
+  }
+}

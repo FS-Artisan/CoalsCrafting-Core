@@ -1,0 +1,36 @@
+{
+  "group": "coals_crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "coals_crafting:lava_coal"
+    },
+    "1": {
+      "item": "minecraft:flint"
+    },
+    "3": {
+      "item": "coals_crafting:coal_stick"
+    },
+    "4": {
+      "item": "minecraft:bow"
+    },
+    "5": {
+      "item": "minecraft:leather"
+    },
+    "7": {
+      "tag": "minecraft:logs"
+    },
+    "8": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "coals_crafting:lava_coal_gun",
+    "count": 1
+  }
+}

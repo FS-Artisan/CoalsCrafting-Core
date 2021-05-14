@@ -1,0 +1,24 @@
+{
+  "group": "coals_crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coal_block"
+    },
+    "1": {
+      "item": "minecraft:paper"
+    },
+    "2": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "coals_crafting:coal_warm_paste",
+    "count": 3
+  }
+}

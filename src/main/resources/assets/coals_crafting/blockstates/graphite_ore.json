@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "coals_crafting:block/graphite_ore"
+    }
+  }
+}

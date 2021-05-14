@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LavaCoal"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CoalStick"
+      },
+      {
+        "value": "Items.BOW"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LavaCoalGun"
+    },
+    "name": "lava_coal_gun_craft",
+    "namespace": "mod"
+  }
+}

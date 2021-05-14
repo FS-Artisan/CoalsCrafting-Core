@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "coals_crafting:lava_coal_gun"
+  },
+  "addition": {
+    "item": "coals_crafting:soul_ingot"
+  },
+  "result": {
+    "item": "coals_crafting:soul_coal_gun"
+  }
+}

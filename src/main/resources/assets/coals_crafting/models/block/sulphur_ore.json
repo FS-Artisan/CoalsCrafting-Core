@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "coals_crafting:blocks/netherrack",
+    "particle": "coals_crafting:blocks/netherrack"
+  }
+}

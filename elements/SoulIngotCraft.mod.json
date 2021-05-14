@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 0.5,
+    "cookingTime": 150,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.SOUL_SOIL"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:SoulIngot"
+    },
+    "name": "soul_ingot_craft",
+    "namespace": "mod"
+  }
+}

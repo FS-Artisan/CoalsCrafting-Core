@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "coals_crafting:basis_gold_coal"
+    },
+    "title": {
+      "translate": "advancements.get_gold_coal.title"
+    },
+    "description": {
+      "translate": "advancements.get_gold_coal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_gold_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "coals_crafting:basis_gold_coal",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 32
+  },
+  "parent": "coals_crafting:get_iron_coal"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "coals_crafting:items/coalarmor_helmet"
+  }
+}

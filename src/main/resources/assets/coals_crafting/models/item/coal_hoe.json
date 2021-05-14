@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "coals_crafting:items/coal_hoe"
+  }
+}

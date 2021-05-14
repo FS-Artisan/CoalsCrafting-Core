@@ -1,0 +1,17 @@
+{
+    "type": "thermal:bottler",
+    "ingredient": [
+      {
+        "item": "coals_crafting:coal_filling_frame"
+      },
+      {
+        "fluid": "tconstruct:molten_gold",
+        "amount": 500
+      }
+    ],
+    "result": [
+      {
+        "item": "coals_crafting:basis_gold_coal"
+      }
+    ]
+  }

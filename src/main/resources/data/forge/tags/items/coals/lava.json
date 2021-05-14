@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+      "coals_crafting:lava_coal",
+      "useful_coals_2:lavacoal"
+    ]
+  }

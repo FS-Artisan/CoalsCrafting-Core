@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+      "coals_crafting:lava_coal",
+      "coals_crafting:basis_iron_coal",
+      "coals_crafting:basis_gold_coal",
+      "coals_crafting:basis_diamond_coal",
+	    "coals_crafting:soul_coal",
+      "useful_coals_2:ironcoal",
+      "useful_coals_2:goldcoal",
+      "useful_coals_2:diamondcoal",
+      "useful_coals_2:lavacoal",
+      "useful_coals_2:soul_fire_coal",
+      "useful_coals_2:bedrockcoal"
+    ]
+  }

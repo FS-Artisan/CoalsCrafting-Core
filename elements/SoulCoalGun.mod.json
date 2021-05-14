@@ -1,0 +1,40 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "soul_coal_gun",
+    "customModelName": "Normal",
+    "name": "Soul Coal Gun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CoalsCraftingTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:SoulCoal"
+    },
+    "shootConstantly": false,
+    "usageCount": 512,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.5,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 2,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:SoulCoal"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "SoulBulletsHit"
+    }
+  }
+}

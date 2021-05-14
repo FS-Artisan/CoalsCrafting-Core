@@ -1,0 +1,9 @@
+{
+  "group": "coals_crafting",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:coal"
+  },
+  "result": "coals_crafting:coal_filling_frame"
+}

@@ -1,0 +1,12 @@
+{
+  "group": "coals_crafting",
+  "type": "minecraft:blasting",
+  "experience": 0.5,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "minecraft:soul_soil"
+  },
+  "result": {
+    "item": "coals_crafting:soul_ingot"
+  }
+}

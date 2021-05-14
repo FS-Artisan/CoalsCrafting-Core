@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "coal_shovel",
+    "customModelName": "Normal",
+    "name": "Coal Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CoalsCraftingTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 0,
+    "efficiency": 2.0,
+    "attackSpeed": 0.8,
+    "enchantability": 2,
+    "damageVsEntity": 3.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.COAL#0"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

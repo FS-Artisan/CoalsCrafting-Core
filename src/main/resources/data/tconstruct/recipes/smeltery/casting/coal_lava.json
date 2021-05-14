@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+      "item": "coals_crafting:coal_filling_frame"
+    },
+    "cast_consumed": true,
+    "fluid": {
+      "name": "minecraft:lava",
+      "amount": 500
+    },
+    "result": "coals_crafting:lava_coal",
+    "cooling_time": 161
+  }

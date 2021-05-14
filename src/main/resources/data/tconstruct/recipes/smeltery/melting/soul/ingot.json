@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "coals_crafting:soul_ingot"
+  },
+  "result": {
+    "fluid": "tconstruct:liquid_soul",
+    "amount": 144
+  },
+  "temperature": 400,
+  "time": 23
+}

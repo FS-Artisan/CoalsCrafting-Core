@@ -1,0 +1,16 @@
+{
+  "group": "coals_crafting",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "coals_crafting:coal_filling_frame"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "result": {
+    "item": "coals_crafting:lava_coal",
+    "count": 1
+  }
+}

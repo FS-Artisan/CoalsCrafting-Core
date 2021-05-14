@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "coals_crafting:sulphur_ore",
+    "coals_crafting:nitre_ore",
+    "coals_crafting:graphite_ore"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "type":"mekanism:sawing",
+    "input":{
+        "ingredient":{
+            "item":"minecraft:coal"
+        }
+    },
+    "mainOutput":{
+        "item":"coals_crafting:coal_filling_frame",
+        "count":3
+    }
+}

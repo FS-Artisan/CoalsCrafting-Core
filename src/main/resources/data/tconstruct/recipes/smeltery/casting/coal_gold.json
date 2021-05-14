@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+      "item": "coals_crafting:coal_filling_frame"
+    },
+    "cast_consumed": true,
+    "fluid": {
+      "name": "tconstruct:molten_gold",
+      "amount": 576
+    },
+    "result": "coals_crafting:basis_gold_coal",
+    "cooling_time": 161
+  }

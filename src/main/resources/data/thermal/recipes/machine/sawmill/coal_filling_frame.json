@@ -1,0 +1,13 @@
+{
+    "type": "thermal:sawmill",
+    "ingredient": {
+      "tag": "minecraft:coal"
+    },
+    "result": [
+      {
+        "item": "coals_crafting:coal_filling_frame",
+        "count": 3
+      }
+    ],
+    "energy": 500
+  }

@@ -1,0 +1,922 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CoalsCraftingTab",
+      "type": "tab",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coals_crafting_tab"
+    },
+    {
+      "name": "BasisIronCoal",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basis_iron_coal",
+      "path": "~/Coals"
+    },
+    {
+      "name": "BasisGoldCoal",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basis_gold_coal",
+      "path": "~/Coals"
+    },
+    {
+      "name": "BasisDiamondCoal",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basis_diamond_coal",
+      "path": "~/Coals"
+    },
+    {
+      "name": "BasisIronCoalFuel",
+      "type": "fuel",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basis_iron_coal_fuel",
+      "path": "~/Coals"
+    },
+    {
+      "name": "BasisGoldCoalFuel",
+      "type": "fuel",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basis_gold_coal_fuel",
+      "path": "~/Coals"
+    },
+    {
+      "name": "BasisDiamondCoalFuel",
+      "type": "fuel",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basis_diamond_coal_fuel",
+      "path": "~/Coals"
+    },
+    {
+      "name": "CoalSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "CoalAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "CoalPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "CoalShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_shovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "CoalHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_hoe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Coal",
+      "type": "armor",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CharredWoodenSword",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charred_wooden_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "CoalStick",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_stick",
+      "path": "~/Material"
+    },
+    {
+      "name": "WhenCharredWoodenSwordDamaged",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "when_charred_wooden_sword_damaged",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CharredWoodenSwordCraft",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charred_wooden_sword_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CoalSwordCraft",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_sword_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CoalPickaxeCraft",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_pickaxe_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CoalAxeCraft",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_axe_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "LavaCoal",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_coal",
+      "path": "~/Coals"
+    },
+    {
+      "name": "LavaCoalGun",
+      "type": "gun",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_coal_gun",
+      "path": "~/Tools"
+    },
+    {
+      "name": "CoalWarmPasteUse",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_warm_paste_use",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoalWarmPaste",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_warm_paste",
+      "path": "~/Tools"
+    },
+    {
+      "name": "GraphiteOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "graphite_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "Graphite",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "graphite",
+      "path": "~/Ores"
+    },
+    {
+      "name": "GraphiteOreDropped",
+      "type": "loottable",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "graphite_ore_dropped",
+      "path": "~/Ores"
+    },
+    {
+      "name": "CoalHelmet",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_helmet",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CoalChestplate",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_chestplate",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CoalLeggings",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_leggings",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CoalBoots",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_boots",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "LavaCoalGunCraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lava_coal_gun_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "GraphiteCraft",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "graphite_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CoalWarmPasteCraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_warm_paste_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "BasisDiamondCoalCraft",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basis_diamond_coal_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "BasisGoldCoalCraft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basis_gold_coal_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "BasisIronCoalCraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basis_iron_coal_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "LavaCoalCraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_coal_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CoalFillingFrame",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_filling_frame",
+      "path": "~/Coals"
+    },
+    {
+      "name": "CoalFillingFrameCraft1",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_filling_frame_craft_1",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CoalFillingFrameCraft2",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_filling_frame_craft_2",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "NitreOre",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitre_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "Nitre",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitre",
+      "path": "~/Ores"
+    },
+    {
+      "name": "NitreDropped",
+      "type": "loottable",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitre_dropped",
+      "path": "~/Ores"
+    },
+    {
+      "name": "Sulphur",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulphur",
+      "path": "~/Ores"
+    },
+    {
+      "name": "SulphurOre",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulphur_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "SoulIngot",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_ingot",
+      "path": "~/Material"
+    },
+    {
+      "name": "SoulCoal",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_coal",
+      "path": "~/Coals"
+    },
+    {
+      "name": "SoulBulletsHit",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_bullets_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulCoalGun",
+      "type": "gun",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_coal_gun",
+      "path": "~/Tools"
+    },
+    {
+      "name": "SoulIngotCraft",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_ingot_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "SoulCoalCraft1",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_coal_craft_1",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "SoulCoalCraft2",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_coal_craft_2",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "SoulCoalGunCraft",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_coal_gun_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "GetIronCoal",
+      "type": "achievement",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_iron_coal",
+      "path": "~/Achievement/GetCoal"
+    },
+    {
+      "name": "GetGoldCoal",
+      "type": "achievement",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_gold_coal",
+      "path": "~/Achievement/GetCoal"
+    },
+    {
+      "name": "GetDiamondCoal",
+      "type": "achievement",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_diamond_coal",
+      "path": "~/Achievement/GetCoal"
+    },
+    {
+      "name": "GetLavaCoal",
+      "type": "achievement",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_lava_coal",
+      "path": "~/Achievement/GetCoal"
+    },
+    {
+      "name": "GetSoulCoal",
+      "type": "achievement",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_soul_coal",
+      "path": "~/Achievement/GetCoal"
+    },
+    {
+      "name": "GetCharredWoodenSword",
+      "type": "achievement",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_charred_wooden_sword",
+      "path": "~/Achievement/GetItem"
+    },
+    {
+      "name": "GetCoalStick",
+      "type": "achievement",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_coal_stick",
+      "path": "~/Achievement/GetItem"
+    },
+    {
+      "name": "GetLavaCoalGun",
+      "type": "achievement",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_lava_coal_gun",
+      "path": "~/Achievement/GetItem"
+    },
+    {
+      "name": "GetSoulCoalGun",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_soul_coal_gun",
+      "path": "~/Achievement/GetItem"
+    },
+    {
+      "name": "GetCoal",
+      "type": "achievement",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_coal",
+      "path": "~/Achievement/GetCoal"
+    },
+    {
+      "name": "LavaCoalFuel",
+      "type": "fuel",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_coal_fuel",
+      "path": "~/Coals"
+    },
+    {
+      "name": "SoulCoalFuel",
+      "type": "fuel",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_coal_fuel",
+      "path": "~/Coals"
+    },
+    {
+      "name": "NetheriteCoal",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_coal",
+      "path": "~/Coals"
+    },
+    {
+      "name": "NetheriteCoalFuel",
+      "type": "fuel",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_coal_fuel",
+      "path": "~/Coals"
+    },
+    {
+      "name": "NetheriteCoalCrafting",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_coal_crafting",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "GotNetheriteCoal",
+      "type": "achievement",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "got_netherite_coal",
+      "path": "~/Achievement/GetCoal"
+    },
+    {
+      "name": "CoalHoeCraft",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_hoe_craft",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CoalShovelCraft",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_shovel_craft",
+      "path": "~/Crafting"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.coals_crafting.sulphur_ore": "Sulphur Ore",
+      "advancements.get_diamond_coal.title": "Get Diamond Coal!",
+      "item.coals_crafting.coal_warm_paste": "Coal Warm Paste",
+      "item.coals_crafting.basis_gold_coal": "Basis Gold Coal",
+      "item.coals_crafting.coal_hoe": "Coal Hoe",
+      "advancements.get_diamond_coal.descr": "It\u0027s really expensive.",
+      "item.coals_crafting.sulphur": "Sulphur",
+      "advancements.get_lava_coal_gun.title": "Get Lava Coal Gun!",
+      "item.coals_crafting.lava_coal_gun": "Lava Coal Gun",
+      "item.coals_crafting.coal_boots": "Coal Caliga",
+      "advancements.get_lava_coal.descr": "Coal filled with lava?",
+      "item.coals_crafting.coal_shovel": "Coal Shovel",
+      "advancements.get_gold_coal.title": "Get Gold Coal!",
+      "advancements.get_iron_coal.title": "Get Iron Coal!",
+      "advancements.get_gold_coal.descr": "Golden coal,can it burn for a long time?",
+      "item.coals_crafting.coal_chestplate": "Coal Cuirass",
+      "advancements.got_netherite_coal.descr": "New Coal!",
+      "advancements.get_coal_stick.descr": "Wait, it\u0027s broken!",
+      "item.coals_crafting.coal_helmet": "Coal Helmet",
+      "advancements.get_lava_coal_gun.descr": "It braved the flames.",
+      "advancements.get_soul_coal_gun.title": "Get Soul Coal Gun!",
+      "item.coals_crafting.graphite": "Graphite",
+      "item.coals_crafting.coal_filling_frame": "Coal Filling Frame",
+      "advancements.get_coal.descr": "Get coal!",
+      "item.coals_crafting.basis_diamond_coal": "Basis Diamond Coal",
+      "item.coals_crafting.soul_ingot": "Soul Ingot",
+      "itemGroup.tabcoals_crafting_tab": "Coals Crafting",
+      "item.coals_crafting.soul_coal_gun": "Soul Coal Gun",
+      "item.coals_crafting.charred_wooden_sword": "Charred Wooden Sword",
+      "advancements.get_soul_coal.descr": "Wonderful!",
+      "item.coals_crafting.netherite_coal": "Netherite Coal",
+      "item.coals_crafting.coal_sword": "Coal Sword",
+      "block.coals_crafting.nitre_ore": "Nitre Ore",
+      "block.coals_crafting.graphite_ore": "Graphite Ore",
+      "advancements.get_soul_coal.title": "Get Soul Coal!",
+      "item.coals_crafting.soul_coal": "Soul Coal",
+      "advancements.get_charred_wooden_sword.descr": "This is very scientific,isn\u0027t it?",
+      "advancements.get_charred_wooden_sword.title": "Get Charred Wooden Sword!",
+      "item.coals_crafting.coal_axe": "Coal Axe",
+      "item.coals_crafting.nitre": "Nitre",
+      "item.coals_crafting.coal_stick": "Coal Stick",
+      "advancements.get_soul_coal_gun.descr": "This weapon is so handsome!",
+      "advancements.get_lava_coal.title": "Get Lava Coal!",
+      "item.coals_crafting.coal_pickaxe": "Coal Pickaxe",
+      "item.coals_crafting.coal_leggings": "Coal Gaiter",
+      "advancements.get_coal_stick.title": "Get Coal Stick!",
+      "item.coals_crafting.basis_iron_coal": "Basis Iron Coal",
+      "advancements.get_iron_coal.descr": "This is not scientific!",
+      "advancements.get_coal.title": "The beginning of the mod!",
+      "advancements.got_netherite_coal.title": "Got Netherite Coal!",
+      "item.coals_crafting.lava_coal": "Lava Coal"
+    },
+    "zh_cn": {
+      "block.coals_crafting.sulphur_ore": "硫磺矿",
+      "advancements.get_diamond_coal.title": "获得钻石煤炭！",
+      "item.coals_crafting.coal_warm_paste": "煤炭暖宝宝",
+      "item.coals_crafting.basis_gold_coal": "基础黄金煤炭",
+      "item.coals_crafting.coal_hoe": "煤炭锄",
+      "advancements.get_diamond_coal.descr": "这个真的很贵啊。",
+      "item.coals_crafting.sulphur": "硫磺",
+      "advancements.get_lava_coal_gun.title": "获得熔岩煤炭枪！",
+      "item.coals_crafting.lava_coal_gun": "熔岩煤炭枪",
+      "item.coals_crafting.coal_boots": "煤炭靴",
+      "advancements.get_lava_coal.descr": "充满了岩浆的煤炭？",
+      "item.coals_crafting.coal_shovel": "煤炭铲",
+      "advancements.get_gold_coal.title": "获得黄金煤炭！",
+      "advancements.get_iron_coal.title": "获得铁煤炭！",
+      "advancements.get_gold_coal.descr": "黄金做的煤炭，能烧很久吗？",
+      "item.coals_crafting.coal_chestplate": "煤炭胸甲",
+      "advancements.got_netherite_coal.descr": "新的煤炭！",
+      "advancements.get_coal_stick.descr": "等等，好像它断了！",
+      "item.coals_crafting.coal_helmet": "煤炭头盔",
+      "advancements.get_lava_coal_gun.descr": "它上面冒着火焰。",
+      "advancements.get_soul_coal_gun.title": "获得灵魂煤炭枪！",
+      "item.coals_crafting.graphite": "石墨",
+      "item.coals_crafting.coal_filling_frame": "煤炭填充框架",
+      "advancements.get_coal.descr": "获得煤炭！这个模组开始了！",
+      "item.coals_crafting.basis_diamond_coal": "基础钻石煤炭",
+      "item.coals_crafting.soul_ingot": "灵魂土锭",
+      "itemGroup.tabcoals_crafting_tab": "煤炭工艺",
+      "item.coals_crafting.soul_coal_gun": "灵魂煤炭枪",
+      "item.coals_crafting.charred_wooden_sword": "烧焦的木剑",
+      "advancements.get_soul_coal.descr": "完美！绝妙的煤炭！",
+      "item.coals_crafting.netherite_coal": "下界合金煤炭",
+      "item.coals_crafting.coal_sword": "煤炭剑",
+      "block.coals_crafting.nitre_ore": "硝石矿",
+      "block.coals_crafting.graphite_ore": "石墨矿",
+      "advancements.get_soul_coal.title": "获得灵魂煤炭！",
+      "item.coals_crafting.soul_coal": "灵魂煤炭",
+      "advancements.get_charred_wooden_sword.descr": "这非常科学，不是吗？",
+      "advancements.get_charred_wooden_sword.title": "获得烧焦的木剑！",
+      "item.coals_crafting.coal_axe": "煤炭斧",
+      "item.coals_crafting.nitre": "硝石",
+      "item.coals_crafting.coal_stick": "煤炭棒",
+      "advancements.get_soul_coal_gun.descr": "这把武器真帅啊！",
+      "advancements.get_lava_coal.title": "获得熔岩煤炭！",
+      "item.coals_crafting.coal_pickaxe": "煤炭镐",
+      "item.coals_crafting.coal_leggings": "煤炭护腿",
+      "advancements.get_coal_stick.title": "获得煤炭棒！",
+      "item.coals_crafting.basis_iron_coal": "基础铁煤炭",
+      "advancements.get_iron_coal.descr": "这一点都不科学！",
+      "advancements.get_coal.title": "这个模组的开端！",
+      "advancements.got_netherite_coal.title": "获得下界合金煤炭",
+      "item.coals_crafting.lava_coal": "熔岩煤炭"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Coals",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Crafting",
+        "children": []
+      },
+      {
+        "name": "Material",
+        "children": []
+      },
+      {
+        "name": "Ores",
+        "children": []
+      },
+      {
+        "name": "Achievement",
+        "children": [
+          {
+            "name": "GetCoal",
+            "children": []
+          },
+          {
+            "name": "GetItem",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "coals_crafting",
+    "modName": "Coals Crafting",
+    "version": "1.4.4",
+    "author": "HLFT",
+    "websiteURL": "https://www.mcmod.cn/class/3356.html",
+    "license": "Not specified",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "https://www.mcmod.cn/class/3356.html",
+    "modElementsPackage": "coals_crafting",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

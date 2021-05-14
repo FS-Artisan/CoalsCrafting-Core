@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+      "item": "coals_crafting:lava_coal"
+    },
+    "cast_consumed": true,
+    "fluid": {
+      "name": "tconstruct:liquid_soul",
+      "amount": 500
+    },
+    "result": "coals_crafting:soul_coal",
+    "cooling_time": 161
+  }

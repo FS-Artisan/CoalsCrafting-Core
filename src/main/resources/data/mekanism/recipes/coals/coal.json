@@ -1,0 +1,15 @@
+{
+    "type":"mekanism:metallurgic_infusing",
+    "itemInput":{
+        "ingredient":{
+            "item":"coals_crafting:coal_filling_frame"
+            }
+        },
+        "infusionInput":{
+            "amount":10,
+            "tag":"mekanism:carbon"
+        },
+        "output":{
+            "item":"minecraft:coal"
+        }
+}
